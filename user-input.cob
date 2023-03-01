@@ -11,10 +11,10 @@
                DISPLAY "YASINIZ: ".
                ACCEPT AGE FROM SYSIN.
                IF AGE < 18 THEN
-                   DISPLAY "IZIN YOK".
-               IF AGE >= 18 THEN
-                   DISPLAY "HOS GELDINIZ "NAME.
-           
+                   DISPLAY "IZIN YOK."
+               ELSE
+                   DISPLAY "HOS GELDINIZ " NAME
+               END-IF.
            END PROGRAM user-input.
 
                
